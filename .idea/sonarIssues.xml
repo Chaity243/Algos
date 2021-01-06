@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/chaitanya/kotlincodingalgorithms/MergeSort.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/chaitanya/kotlincodingalgorithms/MyArray.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/chaitanya/kotlincodingalgorithms/MyClass.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/chaitanya/kotlincodingalgorithms/Stack.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/chaitanya/kotlincodingalgorithms/linkedlist/AddTwoNumbers.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code/src/main/java/com/apainsurance/code/MergeSort.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code/src/main/java/com/apainsurance/code/MergeSort2.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code/src/main/java/com/apainsurance/code/MergeSortedArrays.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code/src/main/java/com/apainsurance/code/MyClass.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code/src/main/java/com/apainsurance/code/ReverseString.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code/src/main/java/com/apainsurance/code/Slack.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code/src/main/java/com/apainsurance/code/Stack.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code/src/main/java/com/apainsurance/code/array/3SumZero.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code/src/main/java/com/apainsurance/code/array/IncreasingTripletSubsequence.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code/src/main/java/com/apainsurance/code/array/LongestCommonSubstring.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code/src/main/java/com/apainsurance/code/array/LongestSubstring.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code/src/main/java/com/apainsurance/code/array/SetMatrixZero.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code/src/main/java/com/apainsurance/code/array/Test.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code/src/main/java/com/apainsurance/code/array/ThreeSumZero.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code/src/main/java/com/apainsurance/code/linkedlist/AddTwoNumbers.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code/src/main/java/com/chaitanya/code/MergeSort.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code/src/main/java/com/chaitanya/code/MergeSort2.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code/src/main/java/com/chaitanya/code/MergeSortedArrays.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code/src/main/java/com/chaitanya/code/array/IncreasingTripletSubsequence.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code/src/main/java/com/chaitanya/code/array/LongestCommonSubstring.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code/src/main/java/com/chaitanya/code/array/LongestSubstring.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code/src/main/java/com/chaitanya/code/array/SetMatrixZero.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code/src/main/java/com/chaitanya/code/array/Test.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code/src/main/java/com/chaitanya/code/array/ThreeSumZero.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code/src/main/java/com/chaitanya/code/linkedlist/AddTwoNumbers.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code/src/main/java/com/chaitanya/code/linkedlist/IntersectionOfTwoLinkedLists.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code/src/main/java/com/chaitanya/code/linkedlist/OddEvenLinkedList.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code/src/main/java/com/chaitanya/code/linkedlist/PrintLinkedList.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/build/generated/source/kapt/debug/com/letshego/dasdigital/android/DataBinderMapperImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/build/generated/source/kapt/debug/com/letshego/dasdigital/android/databinding/ProvideEmailFragmentBindingImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/java/com/letshego/dasdigital/android/arch/Extentions.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/java/com/letshego/dasdigital/android/common/repository/CampaignRepository.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/java/com/letshego/dasdigital/android/dashboard/DashBoardFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/java/com/letshego/dasdigital/android/dashboard/DashBoardViewModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/java/com/letshego/dasdigital/android/dashboard/home/HomeFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/java/com/letshego/dasdigital/android/dashboard/home/applicationtracker/ApplicationTrackerTimeLineDataHelper.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/java/com/letshego/dasdigital/android/dashboard/interim/InterimDashboardFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/java/com/letshego/dasdigital/android/dashboard/manageLoan/ManageActiveLoanFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/java/com/letshego/dasdigital/android/help/ui/HelpFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/java/com/letshego/dasdigital/android/login/LoginBottomSheetFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/java/com/letshego/dasdigital/android/login/ReLoginBottomSheetFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/java/com/letshego/dasdigital/android/login/ReLoginFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/java/com/letshego/dasdigital/android/onboarding/ui/OnBoardingActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/java/com/letshego/dasdigital/android/onboarding/ui/OnBoardingFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/java/com/letshego/dasdigital/android/registration/ui/ProvideEmailFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/java/com/letshego/dasdigital/android/setuppassword/ui/SetupPasswordFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/java/com/letshego/dasdigital/android/util/AppConstants.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/java/com/letshego/dasdigital/android/util/ExtensionsUtil.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/res/color/selector_til_state_color.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/res/drawable-xxhdpi/bg_color_tertiniary_white_round_cornor.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/res/layout/campaign_item_fragment.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/res/layout/error_message_layout.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/res/layout/fragment_onboarding_page_one.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/res/layout/fragment_onboarding_page_two.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/res/layout/fragment_re_login.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/res/layout/fragment_setup_password.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/res/layout/fragment_setup_password_success.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/res/layout/fragment_topup_review.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/res/layout/interim_dashboard_fragment.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/res/layout/layout_loan_detail_card.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/res/layout/login_bottom_sheet.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/res/layout/main_dashboard_loan_layout.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/res/layout/onboarding_fragment.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/res/layout/re_login_bottom_sheet.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/res/layout/reset_pass_verify_bottom_sheet.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/res/layout/reset_password_success_activity.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/res/layout/ticker_view.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/res/layout/toolbar.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/res/layout/topup_review_cutomer_details_fragment.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/res/navigation/mobile_navigation.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/res/navigation/onboarding_navigation.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/res/values/colors.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/res/values/dimens.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/app/src/main/res/values/styles.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/shared/build/generated/moko/androidMain/res/values/colors.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/shared/build/generated/moko/androidMain/res/values/multiplatform_strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/shared/build/generated/moko/androidMain/src/com/letshego/dasdigital/shared/MR.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/shared/build/generated/moko/commonMain/src/com/letshego/dasdigital/shared/MR.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/shared/src/commonMain/kotlin/com/letshego/dasdigital/android/home/HomeViewModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/shared/src/commonMain/kotlin/com/letshego/dasdigital/android/loan/ContractDocumentsViewModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/shared/src/commonMain/kotlin/com/letshego/dasdigital/android/topupreview/TopUpReviewDetailsViewModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/shared/src/commonMain/kotlin/com/letshego/dasdigital/factory/StringFactory.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/shared/src/commonMain/kotlin/com/letshego/dasdigital/ktor/command/LoanOfferCommand.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/shared/src/commonMain/kotlin/com/letshego/dasdigital/ktor/model/LoanDocumentUiModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/shared/src/commonMain/kotlin/com/letshego/dasdigital/models/CountryContactEnum.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/shared/src/commonMain/kotlin/com/letshego/dasdigital/models/CountryModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/shared/src/commonMain/kotlin/com/letshego/dasdigital/models/DocumentStatus.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/shared/src/commonMain/kotlin/com/letshego/dasdigital/models/LoanCalculatorDataModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../letshego/das-mobile/shared/src/commonMain/resources/MR/base/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
