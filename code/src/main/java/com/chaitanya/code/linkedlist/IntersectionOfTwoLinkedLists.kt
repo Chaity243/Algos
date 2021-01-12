@@ -22,57 +22,81 @@ fun main() {
     //LinkedList 2
     val l21 = ListNode(1)
     val l22 = ListNode(5)
-    val l23 = ListNode(3)
-    val l24 = ListNode(6)
-    val l25 = ListNode(9)
-    val l26 = ListNode(9)
     l21.next = l22
-    l22.next = l23
-    l23.next = l24
-    l24.next = l25
-    l25.next = l26
+    l22.next = l13
 
     println("Original LinkedList 1: ")
-    PrintLinkedList.printLl(l11)
+    printLl(l11)
 
     println("Original LinkedList 2: ")
-    PrintLinkedList.printLl(l21)
+    printLl(l21)
 
     println("Intersection at Node: ")
-    print(getIntersectionNode(l11, l21))
+    print(getIntersectionNode(l11, l21)?.`val`)
     print("\nProgram execution end\n ==============================================")
 }
 
+/*First we will calculate the difference and traverse the longer LinkedList to the node from where both the linkedlist  have same length remaining to be traversed and can be traversed together*/
 fun getIntersectionNode(headA: ListNode?, headB: ListNode?): ListNode? {
-    var intersection :ListNode?=ListNode(5)
+    var l1=headA
+    var l2=headB
 
-    var l1=reversedLL(headA)
-    printLl(l1)
+    val countA = getCount(headA)
+    println("HeadA Count $countA")
 
-    var l2=reversedLL(headB)
-    return intersection
+    val countB = getCount(headB)
+    println("HeadB Count $countB")
 
+    var diff:Int
+
+    if(countA>countB) {
+        diff = countA-countB
+
+        while (diff!=0){
+            diff--
+            l1=l1?.next
+        }
+    }
+    else if(countB > countA){
+        diff = countB-countA
+        while (diff!=0){
+            diff--
+            l2=l2?.next
+        }
+    }
+
+    var result: ListNode? = null
+    var isResult = false
+
+    while (l1 != null && l2 != null) {
+
+
+        if (l1 == l2){
+            if(!isResult){
+                result = l1
+                isResult=true
+            }
+        }
+        else if (isResult){
+            result= null
+            isResult=false
+        }
+
+        l1 = l1.next
+        l2 = l2.next
+
+    }
+
+    return result
 
 }
 
-fun reversedLL(head: ListNode?): ListNode? {
-    var tail =head
-    var temp =  tail?.next
-    var tempNext = temp?.next
-
-    // l1-> l2 -> l3 ->l4 -> null
-    //l4->l3->l2-> l1
-
-    while ( tail!=null){
-        temp?.next=tail
-        tempNext?.next=temp
-        tail=tempNext
-        temp =  tail?.next
-        tempNext = temp?.next
+fun getCount(head :ListNode?):Int{
+    var count =1
+    var h = head
+    while(h?.next!=null){
+        count++
+        h = h.next
     }
-    println("Reversed LL")
-    printLl(tail)
-    return tail
-
-
+    return count
 }
