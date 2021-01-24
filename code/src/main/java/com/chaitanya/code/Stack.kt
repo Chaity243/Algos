@@ -1,11 +1,12 @@
 package com.chaitanya.code
 
-class Node(val value: Any) {
-    var next: Node? = null
-}
+
 
 class Stack(private var top: Node? = null, private var bottom: Node? = null, private var length: Int = 0) {
 
+    class Node(val value: Any) {
+        var next: Node? = null
+    }
     //Peek
     fun peek() {
         //empty

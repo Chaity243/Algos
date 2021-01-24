@@ -18,6 +18,71 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../ADCB/Code/android-app/.idea/sonarIssues.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../ADCB/Code/android-app/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../ADCB/Code/android-app/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../ADCB/Code/android-app/app/src/main/java/ae/ahb/digital/MainActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../ADCB/Code/android-app/app/src/main/java/ae/ahb/digital/becomingacustomer/SampleClass.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../ADCB/Code/android-app/app/src/main/res/values-en/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../ADCB/Code/android-app/app/src/main/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../ADCB/Code/android-app/app/src/main/res/values/universalStrings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../ADCB/Code/android-app/app/src/test/java/ae/ahb/digital/becomingacustomer/SampleClassTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../ADCB/Code/android-app/azure-pipelines.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../ADCB/Code/android-app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../ADCB/Code/android-app/data/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../KaamKiFireBase/app/src/main/java/com/kaamki/kotlin/entity/categories/CategoriesDataEntity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/build.gradle">
           <value>
             <set />
@@ -143,6 +208,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/code/src/main/java/com/chaitanya/code/QueueImplementation.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code/src/main/java/com/chaitanya/code/Stack.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/code/src/main/java/com/chaitanya/code/array/IncreasingTripletSubsequence.kt">
           <value>
             <set />
@@ -189,6 +264,21 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/code/src/main/java/com/chaitanya/code/linkedlist/PrintLinkedList.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code/src/main/java/com/chaitanya/code/treeandgraphs/BinaryTreeInorderTraversal.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code/src/main/java/com/chaitanya/code/treeandgraphs/BinaryTreeZigzagLevelOrderTraversal.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code/src/main/java/com/chaitanya/code/treeandgraphs/PopulatingNextRightPointersInEachNode.kt">
           <value>
             <set />
           </value>

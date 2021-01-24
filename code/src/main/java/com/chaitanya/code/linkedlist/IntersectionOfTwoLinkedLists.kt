@@ -38,48 +38,34 @@ fun main() {
 
 /*First we will calculate the difference and traverse the longer LinkedList to the node from where both the linkedlist  have same length remaining to be traversed and can be traversed together*/
 fun getIntersectionNode(headA: ListNode?, headB: ListNode?): ListNode? {
-    var l1=headA
-    var l2=headB
+    var l1 = headA
+    var l2 = headB
 
     val countA = getCount(headA)
-    println("HeadA Count $countA")
-
     val countB = getCount(headB)
-    println("HeadB Count $countB")
 
-    var diff:Int
-
-    if(countA>countB) {
-        diff = countA-countB
-
-        while (diff!=0){
+    var diff: Int
+    if (countA > countB) {
+        diff = countA - countB
+        while (diff != 0) {
             diff--
-            l1=l1?.next
+            l1 = l1?.next
         }
-    }
-    else if(countB > countA){
-        diff = countB-countA
-        while (diff!=0){
+    } else if (countB > countA) {
+        diff = countB - countA
+        while (diff != 0) {
             diff--
-            l2=l2?.next
+            l2 = l2?.next
         }
     }
 
     var result: ListNode? = null
-    var isResult = false
+
 
     while (l1 != null && l2 != null) {
-
-
-        if (l1 == l2){
-            if(!isResult){
+        if (l1 == l2) {
                 result = l1
-                isResult=true
-            }
-        }
-        else if (isResult){
-            result= null
-            isResult=false
+               return result
         }
 
         l1 = l1.next
@@ -91,10 +77,10 @@ fun getIntersectionNode(headA: ListNode?, headB: ListNode?): ListNode? {
 
 }
 
-fun getCount(head :ListNode?):Int{
-    var count =1
+fun getCount(head: ListNode?): Int {
+    var count = 1
     var h = head
-    while(h?.next!=null){
+    while (h?.next != null) {
         count++
         h = h.next
     }
