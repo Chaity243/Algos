@@ -17,7 +17,7 @@ fun main(args: Array<String>) {
     t3.left = t6
     t3.right = t7
 
-    connect(t1)
+    connect3(t1)
 
     print("\nProgram execution end\n ==============================================")
 }
@@ -61,6 +61,7 @@ class Queue {
     fun size() = length
 }
 
+// Approach 1
 fun connect(root: Node?): Node? {
     val q = Queue()
     root?.let { q.push(it) }
@@ -69,6 +70,7 @@ fun connect(root: Node?): Node? {
 
     while (q.size() != 0) {
         val currentNode = q.pop()
+
         println("Current Node Value: ${currentNode?.`val`}")
         if (currentNode?.`val` != 0) {
             if (currentNode?.left != null) {
@@ -104,4 +106,68 @@ fun connect(root: Node?): Node? {
         }
     }
     return root
+
+
 }
+
+// Above Approach better solution
+
+fun connect3(root: Node?): Node? {
+    val q = ArrayList<Node?>()
+    root?.let { q.add(it) }
+    q.add(null)
+
+    while (q.isNotEmpty()) {
+        val node = q.removeAt(0)
+        println("Current Node : ${node?.`val`}")
+        if (node != null) {
+            if (q.isNotEmpty()) {
+                if (node == null) q.add(null)
+                node.next = q.elementAt(0)
+            }
+            if (node.left != null) q.add(node.left)
+            if (node.right != null) q.add(node.right)
+           // if (q[0] == null) q.add(null)
+
+        }
+    }
+
+    return root
+
+}
+
+// Approach2-- Saving the depth along with the Node
+fun connect2(root: Node?): Node? {
+
+    //Int to represent the depth of Node
+    val q = ArrayList<Pair<Node, Int>>()
+    var depth = 0
+
+    if (root != null) q.add(Pair(root, depth)) // Root Node has 0 depth
+    else return null
+
+    while (q.isNotEmpty()) {
+        val n = q.removeAt(0)
+        if (n.first.left != null) {
+            q.add(Pair(n.first.left!!, ++depth))
+            n.first.left!!.next = when {
+                n.first.right != null -> n.first.right
+                q.isNotEmpty() && q.elementAt(0).second == n.second && q.elementAt(0).first.left != null -> q.elementAt(0).first.left
+                q.isNotEmpty() && q.elementAt(0).second == n.second && q.elementAt(0).first.right != null -> q.elementAt(0).first.right
+                else -> null
+            }
+        }
+
+        if (n.first.right != null) {
+            q.add(Pair(n.first.right!!, depth))
+            n.first.right!!.next = when {
+                q.isNotEmpty() && q.elementAt(0).second == n.second && q.elementAt(0).first.left != null -> q.elementAt(0).first.left
+                q.isNotEmpty() && q.elementAt(0).second == n.second && q.elementAt(0).first.right != null -> q.elementAt(0).first.right
+                else -> null
+            }
+        }
+    }
+
+    return root
+}
+
