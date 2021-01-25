@@ -1,25 +1,39 @@
 package com.chaitanya.code.backtracking
 
-import com.chaitanya.code.treeandgraphs.TreeNode
-
 
 fun main(args: Array<String>) {
     print("\nProgram execution start\n ==============================================\n\n")
 
-    val t1 = TreeNode(3)
-    val t2 = TreeNode(9)
-    val t3 = TreeNode(20)
-    val t4 = TreeNode(15)
-    val t5 = TreeNode(7)
-    t1.left = t2
-    t1.right = t3
-    t3.left = t4
-    t3.right = t5
-
-    println(letterCombinations("234"))
+    println(letterCombinationsRecursive(""))
 
     print("\nProgram execution end\n ==============================================")
 
+}
+
+//Recursive Solution
+fun letterCombinationsRecursive(digits: String): List<String> {
+    val resultList = mutableListOf<String>()
+    if (digits.isBlank()) return resultList
+    val charNoArray = arrayOf("null", "null", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz")
+    backTrack(digits, 0, charNoArray, resultList, StringBuilder())
+    return resultList
+
+}
+
+fun backTrack(digits: String, i: Int, charNoArray: Array<String>, resultList: MutableList<String>, stringBuilder: StringBuilder) {
+    if (i == digits.length) {
+        resultList.add(stringBuilder.toString())
+        return
+    }
+
+    val index = digits[i].toInt() - 48
+    val noChars = charNoArray[index]
+
+    for (c in noChars.toCharArray()) {
+        stringBuilder.append(c)
+        backTrack(digits, i + 1, charNoArray, resultList, stringBuilder)
+        stringBuilder.delete(stringBuilder.length - 1, stringBuilder.length)
+    }
 }
 
 fun letterCombinations(digits: String): List<String> {
@@ -33,8 +47,8 @@ fun letterCombinations(digits: String): List<String> {
     charsNoHash['5'] = listOf("j", "k", "l")
     charsNoHash['6'] = listOf("m", "n", "o")
     charsNoHash['7'] = listOf("p", "q", "r", "s")
-    charsNoHash['8'] = listOf( "t", "u", "v")
-    charsNoHash['9'] = listOf( "w", "x", "y", "z")
+    charsNoHash['8'] = listOf("t", "u", "v")
+    charsNoHash['9'] = listOf("w", "x", "y", "z")
 
     while (mutDigits.isNotEmpty()) {
         val char = mutDigits[0]
